@@ -10,5 +10,5 @@ docker build -t docker-conda .
 
 Install bowtie
 ```sh
-docker run docker-conda conda install-y bowtie
+docker run docker-conda conda install -y bowtie
 ```
