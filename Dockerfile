@@ -15,3 +15,7 @@ ENV PATH /root/miniconda2/bin:$PATH
 RUN conda list
 RUN conda config --add channels r
 RUN conda config --add channels bioconda
+
+### add shared directory
+ADD . /data
+WORKDIR /data
